@@ -1,0 +1,51 @@
+version: 3
+created_by: lapalm
+domain: astrology
+seed_examples:
+  - context: "Phoenix is a minor constellation in the southern sky. Named after the mythical phoenix, it was first depicted on a celestial atlas by Johann Bayer in his Constellation 1603 Uranometria. The French explorer and astronomer Nicolas Louis de Lacaille charted the brighter stars and gave their Bayer designations in 1756. The constellation stretches from roughly −39° to −57° declination, and from 23.5h to 2.5h of right ascension. The constellations Phoenix, Grus, Pavo and Tucana, are known as the Southern Birds."
+    questions_and_answers:
+      - question: Who first depicted the Phoenix constellation?
+        answer: Johann Bayer depicted the Phoenix constellation.
+      - question: What constellations are known as the Southern Birds?
+        answer: The constellations Phoenix, Grus, Pavo and Tucana, are known as the Southern Birds.
+      - question: When was the Phoenix constellation first depicted?
+        answer: The Phoenix constellation was first depicted in 1603.
+  - context: "Phoenix is a small constellation bordered by Fornax and Sculptor to the north, Grus to the west, Tucana to the south, touching on the corner of Hydrus to the south, and Eridanus to the east and southeast. The bright star Achernar is nearby.[9] The three-letter abbreviation for the constellation, as adopted by the International Astronomical Union in 1922, is Phe."
+    questions_and_answers:
+      - question: What borders the Phoenix constellation to the west?
+        answer: Grus constellation borders the Phoenix constellation to the west.
+      - question: What borders the Phoenix constellation to the south?
+        answer: Tucana constellation borders the Phoenix constellation to the south.
+      - question: What is the 3 letter abbreviation for the Phoenix constellation?
+        answer: The 3 letter abbreviation for the Phoenix constellation is Phe.
+  - context: "The official constellation boundaries, as set by Belgian astronomer Eugène Delporte in 1930, are defined by a polygon of 10 segments."
+    questions_and_answers:
+      - question: Who set the official constellation boundaries for the Phoenix constellation?
+        answer: Eugene Delporte set the official boundaries for the Phoenix constellation
+      - question: When were the official boundaries for the Phoenix constellation set?
+        answer: The official boundaries for the Phoenix constellation were set in 1930
+      - question: How many segments make up the boundaries of the Phoenix constellation?
+        answer: 10 segments make up the boundaries of the Phoenix constellation.
+  - context: "In the equatorial coordinate system, the right ascension coordinates of these borders lie between 23h 26.5m and 02h 25.0m , while the declination coordinates are between −39.31° and −57.84°.[1] This means it remains below the horizon to anyone living north of the 40th parallel in the Northern Hemisphere, and remains low in the sky for anyone living north of the equator. It is most visible from locations such as Australia and South Africa during late Southern Hemisphere spring.[7] Most of the constellation lies within, and can be located by, forming a triangle of the bright stars Achernar, Fomalhaut and Beta Ceti—Ankaa lies roughly in the centre of this.[11]"
+    questions_and_answers:
+      - question: What countries are the Phoenix constellation most visible from?
+        answer: Phoenix constellation is most visbile from Australia and South Africa.
+      - question: During what seasons are the Phoenix constellation most visible?
+        answer: The Phoenix constellation is most visible during spring.
+      - question: Where do the right ascension coordinates of the Phoenix constellation borders lie between?
+        answer: The right ascension coordinates of the Phoenix constellation borders lie between 23h 26.5m and 02h 25.0m.
+  - context: "AI Phe is an eclipsing binary star identified in 1972. Its long mutual eclipses and combination of spectroscopic and astrometric data allows precise measurement of the masses and radii of the stars[21] which is viewed as a potential cross-check on stellar properties and distances independent on Ceiphid Variables and such techniques. The long eclipse events require space-based observations to avoid Solar interference. Gamma Phoenicis is a red giant of spectral type M0IIIa[22] and varies between magnitudes 3.39 and 3.49. It lies 235 light years away.[23]"
+    questions_and_answers:
+      - question: What is AI Phe?
+        answer: AI Phe is an eclipsing binary star.
+      - question: When was AI Phe identified?
+        answer: AI Phe was identified in 1972.
+      - question: How far away is Gamma Phoenicis?
+        answer: Gamma Phoenicis lies 235 light years away.
+document_outline: |
+  Information about the Phoenix constellation.
+document:
+  repo: https://github.com/relyt0925/knowledge-doclingpoc.git
+  commit: c29e7fbe9714dec2362eda6000b34c0d92404581
+  patterns:
+    - phoenix.pdf
